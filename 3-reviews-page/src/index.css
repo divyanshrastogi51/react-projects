@@ -261,3 +261,8 @@ main {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
 }
+
+.Footer {
+  height: 0px;
+  bottom: 0;
+}
