@@ -18,16 +18,19 @@ function App() {
   };
 
   return (
-    <main>
-      <section className="menu section">
-        <div className="title">
-          <h2>our menu</h2>
-          <div className="underline"></div>
-        </div>
-        <Categories categories={categories} filterItems={filterItems} />
-        <Menu items={menuItems} />
-      </section>
-    </main>
+    <>
+      <main>
+        <section className="menu section">
+          <div className="title">
+            <h2>our menu</h2>
+            <div className="underline"></div>
+          </div>
+          <Categories categories={categories} filterItems={filterItems} />
+          <Menu items={menuItems} />
+        </section>
+      </main>
+      <footer className='footer'>Made with ❤️ by  <a className='link' href="https://divyansh-rastogi.netlify.app/"> Divyansh Rastogi </a>  Inspired from John Smilga</footer>
+    </>
   );
 }
 
