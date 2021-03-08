@@ -48,6 +48,7 @@ function App() {
           )
         })}
       </section>
+      <footer className='footer'>Made with ❤️ by  <a className='link' href="https://divyansh-rastogi.netlify.app/"> Divyansh Rastogi </a>  Inspired from John Smilga</footer>
     </>
   )
 }
