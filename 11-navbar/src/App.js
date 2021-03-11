@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Navbar from './Navbar';
+import Login from './Login';
+import Register from './Register';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar></Navbar>
+      <Login />
+      <Register />
+      <footer className='footer'>Made with ❤️ by  <a className='link' href="https://divyansh-rastogi.netlify.app/"> Divyansh Rastogi </a> <span> Inspired from John Smilga </span></footer>
+    </>
   );
 }
 
